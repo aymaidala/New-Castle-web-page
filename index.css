@@ -1,0 +1,276 @@
+body{
+    border: 0;
+    margin: 0;
+}
+.top-menu{
+    /* padding: 1rem; */
+    background-color: rgb(55, 55, 126);
+}
+.top-menu-list{
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+    color: white;
+    font-family: Arial;
+    font-weight: 300;
+}
+.top-menu-list p{
+    padding: 0px 20px 0 20px;
+}
+.top-menu-list p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.new-castle-log-section{
+    background-color: #1c1c1c;
+    background-image: url("/hero-supporting-postgraduate-careerâ\ new\ _¯.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding-bottom: 8rem;
+
+   
+}
+.new-castle-menu-bar{
+    display: flex;
+    padding-top: 4rem;
+}
+.logo-icon{
+    /* background-color: aquamarine; */
+    flex: 0.2;
+    height: 100px;
+    width: auto;
+}
+.new-castle-menu{
+    /* background-color: red; */
+    display: flex;
+    flex: 0.8;
+    justify-content: end;
+    
+}
+.new-castle-menu div{
+ padding: 0 2rem 0 1rem;   
+}
+.new-castle-menu div:hover{
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+.Undergraduate-open-days-23{
+    font-size: 170px;
+    font-family: Arial;
+    color: white;
+    font-weight: 600;
+    padding-left: 3rem;
+}
+.sign-up-to-creat{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma,Geneva, Verdana, sans-serif;
+    color: white;
+}
+.search-for-course{
+    background-color:#4a4a4a ;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding-left: 5rem;
+    padding-top: 3rem;
+}
+.search-but-div{
+    display: flex;
+    padding: 3rem 5rem 0 0rem;
+    justify-content: space-between;
+}
+.search-for-course-button1{
+background-color: aliceblue;
+flex: 0.35;
+font-size: 30px;
+}
+.search-for-course-button2{
+    background-color: antiquewhite;
+    flex: 0.65;
+    font-size: 30px;
+}
+.search-for-course-icon{
+    background-color: aquamarine;
+    font-size: 30px;
+    flex: 0.05;
+}
+.view-section{
+    background-color:#1c1c1c;
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.view-section p{
+    padding: 0 5rem 0 5rem;
+}
+.view-section p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.claering-support-international{
+    background-color: white;
+    display: flex;
+}
+.clearing2023{
+    background-color: blue;
+    background-image: url("/dual-homepage-clearing.png");
+    color: white;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    padding: 15rem 0 1rem 2rem;
+    margin: 1.5rem;
+    width: 100vw;
+    flex: 0.5;
+    background-size: 50vw;
+}
+.Support-us{
+    background-color: aqua;
+    background-image: url("/support-us.jpg");
+    color: white;
+    font-size: 50px;
+    margin: 1.5rem;
+    background-repeat: no-repeat;
+    padding: 15rem 0 1rem 2rem;
+    flex: 0.5;
+    background-size: 50vw;
+}
+
+.International_late-application-and-clearing{
+    background-color: white;
+    background-image: url("/promo-banner-international.jpg");
+    font-size: 50px;
+    margin: 1.5rem;
+    background-repeat: no-repeat;
+    padding: 15rem 0 10rem 2rem;
+    color: white;
+    background-size: 100vw;
+    font-weight: 500;
+}
+.apply-div{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3rem;
+}
+
+.who-we-are{
+    background-color: white;
+    background-image: url("/promo-banner-who-we-are.jpg");
+    color: white;
+    font-size: 50px;
+    /* margin: 1.5rem; */
+    background-repeat: no-repeat;
+    flex: 0.5;
+    background-size: 100vw;
+    padding: 10rem 0 5rem 2rem;
+    
+}
+.who-we-are-button{
+    background-color: green;
+    color: white;
+    font-size: 50px;
+    height: 100px;
+    width: auto;
+    justify-items: end;     
+}
+.latest-news{
+    background-color: white;
+}
+.Funding-winner-norhtern{
+    display: flex;
+    font-size: 30px;
+    color: #1c1c1c;
+    margin: 1rem;
+}
+.Funding-winner-norhtern img{
+    font-size: 500px;
+    width: 30vw;
+}
+.funding{
+    /* background-color: grey; */
+    margin: 1rem;
+    flex: 0.3;
+}
+.Winners{
+    /* background-color: brown; */
+    margin: 1rem;
+    flex: 0.3;
+}
+.Northern{
+    /* background-color: palevioletred; */
+    margin: 1rem;
+    flex: 0.4;
+}
+.Funding-winner-norhtern h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.read-more{
+    background-color: white;
+    padding: 10rem 0 20rem 5rem;
+    
+    
+}
+.readmore-button{
+    background-color: white;
+    color: grey;
+    font-size: 30px;
+    height: 70px;
+    width: 800px;
+    text-align: start;
+    border-radius: 0.5rem;
+}
+.readmore-button:hover{
+    background-color: grey;
+
+}
+.our-research-work-with-us{
+    /* background-color: pink; */
+    display: flex;
+}
+.our-research{
+    background-color: navy;
+    flex: 0.5;
+    margin: 1rem;
+    background-image: url("/dual-homepage-research.jpg");
+    font-size: 40px;
+    color: white;
+    padding: 15rem 0 5rem 5rem;
+    background-repeat: no-repeat;
+    background-size: 50vw;
+}
+.Work-with-us{
+    background-color: aquamarine;
+    flex: 0.5;
+    margin: 1rem;
+    background-image: url("/dual-homepage-workwith.jpg");
+    font-size: 40px;
+    color: white;
+    padding: 15rem 0 5rem 5rem;
+    background-repeat: no-repeat;
+    background-size: 50vw;
+}
+.Study-with-Us{
+    background-color: red;
+    background-image: url("/ribbon-study-homepage.jpg");
+    color: white;
+    font-size: 50px;
+    /* margin: 1.5rem; */
+    background-repeat: no-repeat;
+    flex: 0.5;
+    background-size: 100vw;
+    padding: 10rem 0 5rem 2rem;
+}
+.footer-div{
+    background-color: #dcdcdc;
+    display: flex;
+    color:black;
+    font-size: 30px;
+}
+.Newcastle{
+    
+}
